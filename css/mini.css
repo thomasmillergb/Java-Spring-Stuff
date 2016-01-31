@@ -1,0 +1,68 @@
+body{
+    overflow-y: scroll; overflow-x:hidden;
+}
+.profile-img{
+    float: left;
+    width: 400px;
+    margin: 0 10px 10px 0;
+}
+
+.full-cover {
+    background-image: url(/images/main-profile.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.navbar-nav{
+    float: right;
+}
+.nav-pad {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.welcome-box{
+    position: relative;
+    text-align: center;
+    color: #f8f8f8;
+    outline: #222222 10px;
+}
+
+.front-page .welcome-box{
+    max-width: 700px;
+    min-width: 500px;
+    width: 40%;
+    height: 300px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.welcome-box{
+
+}
+.welcome-box h1 {
+    font-size: 65px;
+}
+.welcome-box h2{
+}
+.enter a{
+    color: white;
+}
+.enter{
+    margin: 20px 0 0;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
