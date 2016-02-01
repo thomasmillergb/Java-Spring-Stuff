@@ -1,4 +1,5 @@
 <?php include 'common/head.php'; ?>
+<link rel="stylesheet" href="css/frontpage.css" crossorigin="anonymous">
 <div class="front-page">
     <div class="full-cover">
         <div class="welcome-box">
