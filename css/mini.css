@@ -1,68 +1,106 @@
-body{
-    overflow-y: scroll; overflow-x:hidden;
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+
 }
-.profile-img{
+
+.profile-img {
     float: left;
-    width: 400px;
     margin: 0 10px 10px 0;
+    width: 400px;
 }
 
 .full-cover {
+    width: 100%;
+    height: 100%;
     background-image: url(/images/main-profile.jpg);
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
 
 }
-.navbar-nav{
+
+.navbar-nav {
     float: right;
 }
+
 .nav-pad {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
-.welcome-box{
+
+.welcome-box {
     position: relative;
-    text-align: center;
-    color: #f8f8f8;
     outline: #222222 10px;
+    color: #f8f8f8;
+    text-align: center;
 }
 
-.front-page .welcome-box{
-    max-width: 700px;
-    min-width: 500px;
-    width: 40%;
-    height: 300px;
-
+.front-page .welcome-box {
     position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
+    top: 0;
     right: 0;
-    margin-left: 20%;
+    bottom: 0;
+
+    left: 0;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 20%;
+    min-width: 500px;
+    max-width: 700px;
+    width: 40%;
+    height: 300px;
 }
-.welcome-box{
+
+.welcome-box {
 
 }
+
 .welcome-box h1 {
     font-size: 65px;
 }
-.welcome-box h2{
+
+.welcome-box h2 {
 }
-.enter a{
+
+.enter a {
     color: white;
 }
-.enter{
+
+.enter {
     margin: 20px 0 0;
     padding: 10px 15px;
     border: 1px solid #fff;
     background-color: transparent;
     color: #fff;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content-container::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.content-container::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.content-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #555;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+.content-container {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    height: 100%;
+
 }

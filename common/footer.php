@@ -10,7 +10,7 @@
     </div>
     <!-- /.row -->
 </footer>
-
+</div>
 </div>
 <!-- /.container -->
 </div>
